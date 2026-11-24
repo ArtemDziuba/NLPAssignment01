@@ -1,0 +1,65 @@
+# Environments, Python build products, and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.uv-cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated data and model artifacts; preserve directory placeholders.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/subsets/*
+!data/subsets/.gitkeep
+data/evaluation/*
+!data/evaluation/.gitkeep
+models/*
+!models/.gitkeep
+*.arpa
+*.arpa.*
+*.binary
+*.bin
+*.pt
+*.safetensors
+*.zip
+*.gz
+*.bz2
+*.xz
+*.zst
+
+# Generated results; source notebooks and curated report files remain trackable.
+results/metrics/*
+!results/metrics/.gitkeep
+results/predictions/*
+!results/predictions/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
+results/logs/*
+!results/logs/.gitkeep
+*.log
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+
+# The provided root-level evaluation JSONL and uv.lock must remain trackable.
