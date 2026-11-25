@@ -1,0 +1,14 @@
+.venv
+.git
+.vscode
+.pytest_cache
+.ruff_cache
+__pycache__
+data/*
+!data/evaluation/
+data/evaluation/*
+!data/evaluation/ua_asr_hypotheses_500.jsonl
+models
+results
+report
+.env

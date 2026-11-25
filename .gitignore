@@ -33,6 +33,7 @@ data/subsets/*
 !data/subsets/.gitkeep
 data/evaluation/*
 !data/evaluation/.gitkeep
+!data/evaluation/ua_asr_hypotheses_500.jsonl
 models/*
 !models/.gitkeep
 *.arpa
@@ -48,18 +49,10 @@ models/*
 *.zst
 
 # Generated results; source notebooks and curated report files remain trackable.
-results/metrics/*
-!results/metrics/.gitkeep
-results/predictions/*
-!results/predictions/.gitkeep
-results/figures/*
-!results/figures/.gitkeep
-results/logs/*
-!results/logs/.gitkeep
 *.log
 report/*.aux
 report/*.log
 report/*.out
 report/*.toc
 
-# The provided root-level evaluation JSONL and uv.lock must remain trackable.
+# The provided data/evaluation JSONL and uv.lock must remain trackable.

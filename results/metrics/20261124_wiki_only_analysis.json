@@ -1,0 +1,240 @@
+{
+  "run_id": "20261124_wiki_only",
+  "audit": "passed",
+  "models": 9,
+  "predictions_audited": 4500,
+  "candidate_scores_audited": 36000,
+  "best_model": "order_3_tokens_10000000",
+  "best_correct": 430,
+  "best_errors": 70,
+  "best_accuracy_wilson_95": [
+    0.826833135055546,
+    0.8876773398121365
+  ],
+  "best_vs_bigram_paired": {
+    "wins": 5,
+    "losses": 3,
+    "exact_mcnemar_p": 0.7265625
+  },
+  "reference_positions_raw": {
+    "0": 500
+  },
+  "reference_positions_normalized": {
+    "0": 500,
+    "1": 29,
+    "5": 15,
+    "3": 17,
+    "2": 26,
+    "4": 15,
+    "7": 5,
+    "6": 10
+  },
+  "records_with_multiple_normalized_matches": 117,
+  "matching_candidates": 617,
+  "uniform_random_expected_accuracy": 0.15425,
+  "best_error_length_changes": {
+    "longer": 60,
+    "shorter": 1,
+    "equal": 9
+  },
+  "best_error_reference_ranks": {
+    "2": 59,
+    "4": 1,
+    "3": 9,
+    "5": 1
+  },
+  "best_error_categories": {
+    "other_or_combined": 25,
+    "adjacent_repetition_only": 44,
+    "apostrophe_fragmentation_only": 1
+  },
+  "tie_sensitivity": {
+    "1gram_10000000": {
+      "minimum_accuracy": 0.682,
+      "maximum_accuracy": 0.766,
+      "random_tie_accuracy": 0.7238333333333332,
+      "top_ties_between_distinct_normalized_texts": 44
+    },
+    "1gram_1000000": {
+      "minimum_accuracy": 0.484,
+      "maximum_accuracy": 0.736,
+      "random_tie_accuracy": 0.6060666666666668,
+      "top_ties_between_distinct_normalized_texts": 133
+    },
+    "1gram_100000": {
+      "minimum_accuracy": 0.232,
+      "maximum_accuracy": 0.742,
+      "random_tie_accuracy": 0.4471928571428573,
+      "top_ties_between_distinct_normalized_texts": 272
+    },
+    "2gram_10000000": {
+      "minimum_accuracy": 0.768,
+      "maximum_accuracy": 0.856,
+      "random_tie_accuracy": 0.8121666666666667,
+      "top_ties_between_distinct_normalized_texts": 46
+    },
+    "2gram_1000000": {
+      "minimum_accuracy": 0.554,
+      "maximum_accuracy": 0.814,
+      "random_tie_accuracy": 0.6800666666666668,
+      "top_ties_between_distinct_normalized_texts": 136
+    },
+    "2gram_100000": {
+      "minimum_accuracy": 0.258,
+      "maximum_accuracy": 0.772,
+      "random_tie_accuracy": 0.47535952380952395,
+      "top_ties_between_distinct_normalized_texts": 274
+    },
+    "3gram_10000000": {
+      "minimum_accuracy": 0.77,
+      "maximum_accuracy": 0.86,
+      "random_tie_accuracy": 0.8151666666666667,
+      "top_ties_between_distinct_normalized_texts": 47
+    },
+    "3gram_1000000": {
+      "minimum_accuracy": 0.546,
+      "maximum_accuracy": 0.808,
+      "random_tie_accuracy": 0.6734000000000002,
+      "top_ties_between_distinct_normalized_texts": 136
+    },
+    "3gram_100000": {
+      "minimum_accuracy": 0.252,
+      "maximum_accuracy": 0.77,
+      "random_tie_accuracy": 0.47102619047619065,
+      "top_ties_between_distinct_normalized_texts": 276
+    }
+  },
+  "total_training_seconds": 38.96018654399995,
+  "total_inference_seconds": 0.2188291170332377,
+  "total_binary_bytes": 518950463,
+  "result_files": [
+    {
+      "model_id": "order_1_tokens_10000000",
+      "predictions": "20261124_wiki_only_order_1_tokens_10000000_bea9d14452a7.jsonl"
+    },
+    {
+      "model_id": "order_1_tokens_1000000",
+      "predictions": "20261124_wiki_only_order_1_tokens_1000000_ff86d4748f2f.jsonl"
+    },
+    {
+      "model_id": "order_1_tokens_100000",
+      "predictions": "20261124_wiki_only_order_1_tokens_100000_9d80a7c27c23.jsonl"
+    },
+    {
+      "model_id": "order_2_tokens_10000000",
+      "predictions": "20261124_wiki_only_order_2_tokens_10000000_82d8796ffdd8.jsonl"
+    },
+    {
+      "model_id": "order_2_tokens_1000000",
+      "predictions": "20261124_wiki_only_order_2_tokens_1000000_8efad733215f.jsonl"
+    },
+    {
+      "model_id": "order_2_tokens_100000",
+      "predictions": "20261124_wiki_only_order_2_tokens_100000_504a585227ff.jsonl"
+    },
+    {
+      "model_id": "order_3_tokens_10000000",
+      "predictions": "20261124_wiki_only_order_3_tokens_10000000_595758ba6410.jsonl"
+    },
+    {
+      "model_id": "order_3_tokens_1000000",
+      "predictions": "20261124_wiki_only_order_3_tokens_1000000_86959e4c4181.jsonl"
+    },
+    {
+      "model_id": "order_3_tokens_100000",
+      "predictions": "20261124_wiki_only_order_3_tokens_100000_501b0fd33e7f.jsonl"
+    }
+  ],
+  "baselines": {
+    "first_candidate": {
+      "exact_match_accuracy": 1.0,
+      "wer": 0.0,
+      "cer": 0.0,
+      "mrr": 1.0,
+      "oracle_accuracy": 1.0,
+      "inference_seconds": 0.00016602399955445435,
+      "milliseconds_per_record": 0.0003320479991089087
+    },
+    "seeded_random": {
+      "exact_match_accuracy": 0.156,
+      "wer": 0.14378801042571676,
+      "cer": 0.034729283172343674,
+      "mrr": 0.3688238095238092,
+      "oracle_accuracy": 1.0,
+      "inference_seconds": 0.003815994001342915,
+      "milliseconds_per_record": 0.00763198800268583
+    }
+  },
+  "best_error_ids": [
+    "ua_title_0003",
+    "ua_title_0024",
+    "ua_title_0025",
+    "ua_title_0050",
+    "ua_title_0053",
+    "ua_title_0059",
+    "ua_title_0060",
+    "ua_title_0073",
+    "ua_title_0074",
+    "ua_title_0081",
+    "ua_title_0088",
+    "ua_title_0101",
+    "ua_title_0108",
+    "ua_title_0113",
+    "ua_title_0147",
+    "ua_title_0157",
+    "ua_title_0172",
+    "ua_title_0183",
+    "ua_title_0186",
+    "ua_title_0199",
+    "ua_title_0201",
+    "ua_title_0203",
+    "ua_title_0206",
+    "ua_title_0207",
+    "ua_title_0218",
+    "ua_title_0234",
+    "ua_title_0243",
+    "ua_title_0246",
+    "ua_title_0247",
+    "ua_title_0263",
+    "ua_title_0264",
+    "ua_title_0275",
+    "ua_title_0281",
+    "ua_title_0285",
+    "ua_title_0289",
+    "ua_title_0297",
+    "ua_title_0299",
+    "ua_title_0302",
+    "ua_title_0311",
+    "ua_title_0315",
+    "ua_title_0317",
+    "ua_title_0319",
+    "ua_title_0320",
+    "ua_title_0323",
+    "ua_title_0327",
+    "ua_title_0330",
+    "ua_title_0331",
+    "ua_title_0341",
+    "ua_title_0342",
+    "ua_title_0362",
+    "ua_title_0363",
+    "ua_title_0376",
+    "ua_title_0378",
+    "ua_title_0382",
+    "ua_title_0393",
+    "ua_title_0394",
+    "ua_title_0395",
+    "ua_title_0404",
+    "ua_title_0411",
+    "ua_title_0413",
+    "ua_title_0425",
+    "ua_title_0426",
+    "ua_title_0435",
+    "ua_title_0437",
+    "ua_title_0441",
+    "ua_title_0456",
+    "ua_title_0458",
+    "ua_title_0463",
+    "ua_title_0493",
+    "ua_title_0495"
+  ]
+}

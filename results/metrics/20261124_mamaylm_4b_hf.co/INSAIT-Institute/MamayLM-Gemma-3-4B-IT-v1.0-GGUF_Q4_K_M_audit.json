@@ -1,0 +1,114 @@
+{
+  "run_id": "20261124_mamaylm_4b",
+  "records_audited": 500,
+  "candidate_rankings_audited": 4000,
+  "aggregate_metrics": {
+    "exact_match_accuracy": 0.186,
+    "wer": 0.1372719374456994,
+    "cer": 0.033521860701576006,
+    "mrr": 0.46998809523809515,
+    "oracle_accuracy": 1.0
+  },
+  "baselines": {
+    "Original first candidate (position leakage)": {
+      "exact_match_accuracy": 1.0,
+      "wer": 0.0,
+      "cer": 0.0,
+      "mrr": 1.0,
+      "oracle_accuracy": 1.0
+    },
+    "Seeded shuffled first candidate": {
+      "exact_match_accuracy": 0.156,
+      "wer": 0.14378801042571676,
+      "cer": 0.034729283172343674,
+      "mrr": 0.3688238095238092,
+      "oracle_accuracy": 1.0
+    }
+  },
+  "comparison": [
+    {
+      "model": "KenLM all_five 3-gram / 10M words",
+      "method": "perplexity",
+      "accuracy": 0.902,
+      "wer": 0.013466550825369244,
+      "cer": 0.0069267920691408235,
+      "mrr": 0.9498333333333333,
+      "ms_per_record": 0.06573198398291424,
+      "disk_bytes": 235067377,
+      "timing_source": "historical Docker CPU run"
+    },
+    {
+      "model": "KenLM news_only 2-gram / 10M words",
+      "method": "perplexity",
+      "accuracy": 0.928,
+      "wer": 0.008688097306689836,
+      "cer": 0.004448398576512456,
+      "mrr": 0.9636666666666667,
+      "ms_per_record": 0.03954840199003229,
+      "disk_bytes": 89478104,
+      "timing_source": "historical Docker CPU run"
+    },
+    {
+      "model": "KenLM news_only 3-gram / 10M words",
+      "method": "perplexity",
+      "accuracy": 0.928,
+      "wer": 0.008905299739357081,
+      "cer": 0.004734367056431113,
+      "mrr": 0.9633333333333333,
+      "ms_per_record": 0.04125251598088653,
+      "disk_bytes": 251010796,
+      "timing_source": "historical Docker CPU run"
+    },
+    {
+      "model": "MamayLM-4B",
+      "method": "prompted_candidate_ranking",
+      "accuracy": 0.186,
+      "wer": 0.1372719374456994,
+      "cer": 0.033521860701576006,
+      "mrr": 0.46998809523809515,
+      "ms_per_record": 770.5349337999942,
+      "disk_bytes": 2489894809,
+      "timing_source": "Ollama GPU local HTTP run"
+    },
+    {
+      "model": "qwen3.5:4b",
+      "method": "prompted_candidate_ranking",
+      "accuracy": 0.884,
+      "wer": 0.01585577758470895,
+      "cer": 0.0035269445856634467,
+      "mrr": 0.9331666666666666,
+      "ms_per_record": 570.8384347998363,
+      "disk_bytes": 3324173934,
+      "timing_source": "Ollama GPU local HTTP run"
+    }
+  ],
+  "all_models_csv": "C:\\Users\\artem\\Downloads\\NLP\\Assignment_01\\results\\metrics\\20261124_mamaylm_4b_all_models.csv",
+  "failures": 407,
+  "prediction_sha256": "cfd5391658a0247c7a36f5960e4b7932bdaadba5f2606c80ef9a724cb3f32f9b",
+  "requests_sha256": "e301a042f98558b43667ca4c4d615cc5ae9e19b4980b88fe3402905a31bf6b0d",
+  "resources_sha256": "7fe77dfcce9ad9df4f643fb6393d2469abffc701fb518515bf1d2c3ec9cf1ca5",
+  "gold_display_position_counts": {
+    "7": 68,
+    "4": 67,
+    "2": 56,
+    "3": 58,
+    "8": 67,
+    "1": 60,
+    "6": 60,
+    "5": 64
+  },
+  "selected_display_position_counts": {
+    "1": 482,
+    "3": 7,
+    "6": 2,
+    "2": 8,
+    "7": 1
+  },
+  "selected_first_displayed_count": 482,
+  "unchanged_display_order_rankings": 233,
+  "actual_resource_sampling": {
+    "samples": 253,
+    "median_interval_seconds": 1.4881198500006576,
+    "max_interval_seconds": 2.4543790999996418
+  }
+}

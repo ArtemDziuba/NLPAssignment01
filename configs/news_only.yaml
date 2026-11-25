@@ -1,0 +1,105 @@
+# Domain experiment: news_only; equal sentence contribution for mixtures.
+project_root: ..
+seed: 42
+paths:
+  raw_corpus: data/raw
+  processed_corpus: data/processed/domain_experiments/news_only/corpus.txt
+  subsets: data/subsets/news_only
+  evaluation: data/evaluation/ua_asr_hypotheses_500.jsonl
+  models: models/news_only
+  metrics: results/metrics
+  predictions: results/predictions
+  figures: results/figures
+  logs: results/logs
+corpus:
+  name: UberText
+  source_page: https://lang.org.ua/en/ubertext/
+  release: '2.0'
+  export: sentenced
+  download_workers: 2
+  sources:
+  - domain: news
+    filename: ubertext.news.sentenced.txt.bz2
+    url: https://lang.org.ua/static/downloads/ubertext2.0/news/sentenced/ubertext.news.filter_rus_gcld%2Bshort.text_only.txt.bz2
+    sha256: 2226f19fb0d0f6b0cde3d68333eaef3d4da848e660a4884fff1f1fbfd2ae0456
+  encoding: utf-8
+  sample_cache: data/processed/domain_samples_750k
+preprocessing:
+  version: nfc-lower-apostrophe-words-v1
+  sentence_segmenter: official_sentence_lines
+  min_sentence_words: 2
+  max_sentence_words: 150
+  unicode_normalization: NFC
+  lowercase: true
+  apostrophe: ''''
+  punctuation: separate_except_internal_apostrophes
+  collapse_whitespace: true
+  preserve_digits: true
+  correct_recognition_errors: false
+  drop_empty_training_sentences: true
+  deduplicate_training_sentences: true
+  exclude_evaluation_overlap: true
+  overlap_fields:
+  - reference
+  - hypotheses
+  sentences_per_domain: 750000
+experiments:
+  ngram_orders:
+  - 1
+  - 2
+  - 3
+  corpus_word_tokens:
+  - 100000
+  - 1000000
+  - 10000000
+  subset_policy: whole_sentence_prefix_at_most
+  record_actual_token_counts: true
+  reuse_matching_models: true
+kenlm:
+  lmplz: lmplz
+  build_binary: build_binary
+  memory: 2G
+  binary_type: probing
+  keep_arpa: true
+  verify_unigram_support: true
+  unigram_compatibility: zero_bigram_container
+  discount_fallback: false
+  toolchain_manifest: /opt/kenlm/toolchain.json
+scoring:
+  selection: minimum_perplexity
+  log_base: 10
+  bos: true
+  eos: true
+  perplexity_denominator: word_tokens
+  tie_break: first_candidate
+  empty_normalized_candidate: error
+evaluation:
+  expected_records: 500
+  id_field: utt_id
+  reference_field: reference
+  candidates_field: hypotheses
+  require_unique_ids: true
+  preserve_candidate_order: true
+  match_on: normalized_text
+  primary_metric: exact_match_accuracy
+  metrics:
+  - exact_match_accuracy
+  - wer
+  - cer
+  - mrr
+  - oracle_accuracy
+  - oov_rate
+  edit_rate_aggregation: corpus
+  cer_include_spaces: true
+  mrr_missing_reference: 0.0
+  oov_texts:
+  - references
+  - hypotheses
+  - selected
+  baselines:
+  - first_candidate
+  - seeded_random
+  measure_inference_time: true
+  save_individual_predictions: true
+llm:
+  enabled: false

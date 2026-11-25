@@ -1,0 +1,24 @@
+{
+  "run_id": "20261124_main",
+  "pdf": "experiment_results.pdf",
+  "html": "experiment_results.html",
+  "planned_sections": [
+    "Ukrainian ASR candidate rescoring",
+    "1. Corpus preparation and scoring",
+    "2. Accuracy and corpus-size effects",
+    "3. Efficiency, model size and vocabulary",
+    "4. Qualitative successes and failures",
+    "5. Position bias, exact ties and uncertainty",
+    "6. Conclusions, limitations and reproducibility"
+  ],
+  "audited_predictions": 4500,
+  "audited_candidate_scores": 36000,
+  "sha256": {
+    "pdf": "db3159487d365ab0fac503c86d24652526c15fe5de63591d5b3aa5ed81ff6dc0",
+    "html": "0c7bd6504382c8b203bdc7ab48d9b99d2fe791fb748299d81f166560d3a3f0ea",
+    "summary": "8e13f69e3af39f8c4fb7003dcaf96b77d212647df555ad97d53658f3a084540c",
+    "analysis": "40fd98c0d89f8906f9339fae03b9d1d2660ce67d221c2c46415272aba5f8d74c",
+    "evaluation": "426c324d25fe15ebb12ec27a48b74e6d26c133d3721c804185b6c101794a76b0",
+    "assignment": "b8ea8b497878c6d238d5912b877f937187609b6c63b5ddf35817ab4af6b2fdd0"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "status": "data_ready",
+  "evaluation_records": 500,
+  "evaluation_sha256": "426c324d25fe15ebb12ec27a48b74e6d26c133d3721c804185b6c101794a76b0",
+  "archives": [
+    {
+      "domain": "court",
+      "url": "https://lang.org.ua/static/downloads/ubertext2.0/court/sentenced/ubertext.court.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+      "filename": "ubertext.court.sentenced.txt.bz2",
+      "expected_bytes": 314212625,
+      "etag": "\"642a2341-12ba8111\"",
+      "last_modified": "Mon, 03 Apr 2023 00:52:17 GMT",
+      "checksum_origin": "local SHA256; no publisher checksum supplied",
+      "bytes": 314212625,
+      "sha256": "3b613b699ee109d0ad734ec3764ae2272d46b4aca3a876c5d7516ea514fef6bf",
+      "downloaded_utc": "2026-11-24T15:09:14.336657+00:00"
+    },
+    {
+      "domain": "fiction",
+      "url": "https://lang.org.ua/static/downloads/ubertext2.0/fiction/sentenced/ubertext.fiction.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+      "filename": "ubertext.fiction.sentenced.txt.bz2",
+      "expected_bytes": 416647281,
+      "etag": "\"642a167c-18d58871\"",
+      "last_modified": "Sun, 02 Apr 2023 23:57:48 GMT",
+      "checksum_origin": "local SHA256; no publisher checksum supplied",
+      "bytes": 416647281,
+      "sha256": "ccd8eb85a36b0ce9d027a9f7755aa8207c8e8ff40641dafd76dcccfd702a49b5",
+      "downloaded_utc": "2026-11-24T15:09:37.529296+00:00"
+    },
+    {
+      "domain": "news",
+      "url": "https://lang.org.ua/static/downloads/ubertext2.0/news/sentenced/ubertext.news.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+      "filename": "ubertext.news.sentenced.txt.bz2",
+      "expected_bytes": 3565947428,
+      "etag": "\"642a1f8c-d48c0a24\"",
+      "last_modified": "Mon, 03 Apr 2023 00:36:28 GMT",
+      "checksum_origin": "local SHA256; no publisher checksum supplied",
+      "bytes": 3565947428,
+      "sha256": "2226f19fb0d0f6b0cde3d68333eaef3d4da848e660a4884fff1f1fbfd2ae0456",
+      "downloaded_utc": "2026-11-24T15:18:07.099082+00:00"
+    },
+    {
+      "domain": "social",
+      "url": "https://lang.org.ua/static/downloads/ubertext2.0/social/sentenced/ubertext.social.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+      "filename": "ubertext.social.sentenced.txt.bz2",
+      "expected_bytes": 90790641,
+      "etag": "\"642a222b-5695af1\"",
+      "last_modified": "Mon, 03 Apr 2023 00:47:39 GMT",
+      "checksum_origin": "local SHA256; no publisher checksum supplied",
+      "bytes": 90790641,
+      "sha256": "737101aca5d64b4879fa9730026c546e4e585b22629c289150e282f56e07ba56",
+      "downloaded_utc": "2026-11-24T15:09:49.208224+00:00"
+    },
+    {
+      "domain": "wikipedia",
+      "url": "https://lang.org.ua/static/downloads/ubertext2.0/wikipedia/sentenced/ubertext.wikipedia.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+      "filename": "ubertext.wikipedia.sentenced.txt.bz2",
+      "expected_bytes": 841639138,
+      "etag": "\"642a2168-322a64e2\"",
+      "last_modified": "Mon, 03 Apr 2023 00:44:24 GMT",
+      "checksum_origin": "local SHA256; no publisher checksum supplied",
+      "bytes": 841639138,
+      "sha256": "7e774e3bf510b08c9ab3fa49dd4f7b990ba1667492bca3b2121932f1a96d8f3b",
+      "downloaded_utc": "2026-11-24T15:12:30.107341+00:00"
+    }
+  ],
+  "archive_checksums_verified": true,
+  "subsets": [
+    {
+      "budget": 100000,
+      "actual_tokens": 99987,
+      "sentences": 5030,
+      "domain_sentences": {
+        "court": 1008,
+        "fiction": 1007,
+        "news": 1001,
+        "social": 1008,
+        "wikipedia": 1006
+      },
+      "domain_tokens": {
+        "court": 39351,
+        "fiction": 12981,
+        "news": 16168,
+        "social": 15374,
+        "wikipedia": 16113
+      },
+      "filename": "tokens_100000.txt",
+      "sha256": "27e885525b32504bcce68e77d3b1d36f2c65b127a6c9048bafdd97644b82b830"
+    },
+    {
+      "budget": 1000000,
+      "actual_tokens": 999999,
+      "sentences": 49975,
+      "domain_sentences": {
+        "court": 10011,
+        "fiction": 10002,
+        "news": 9958,
+        "social": 10012,
+        "wikipedia": 9992
+      },
+      "domain_tokens": {
+        "court": 397960,
+        "fiction": 125800,
+        "news": 164967,
+        "social": 149956,
+        "wikipedia": 161316
+      },
+      "filename": "tokens_1000000.txt",
+      "sha256": "a06757cdcdfd61af8b488e3f46eb33e36ff130ba42426da79d6adf9adcbb7b54"
+    },
+    {
+      "budget": 10000000,
+      "actual_tokens": 9999984,
+      "sentences": 500646,
+      "domain_sentences": {
+        "court": 100284,
+        "fiction": 100205,
+        "news": 99750,
+        "social": 100293,
+        "wikipedia": 100114
+      },
+      "domain_tokens": {
+        "court": 3998102,
+        "fiction": 1249427,
+        "news": 1628320,
+        "social": 1506498,
+        "wikipedia": 1617637
+      },
+      "filename": "tokens_10000000.txt",
+      "sha256": "d151addcb8912b87bdf8e99c4e851d6c45903167a5c60528dd60cf1e2d131870"
+    }
+  ],
+  "processed_sentences": 998334,
+  "free_disk_bytes": 41198305280,
+  "kenlm_check": {
+    "toolchain": {
+      "binding_sha256": "bfd179f7afaff12f9eafbe047ed479ca88e0a8018822121aca63b5fdf9d32590",
+      "lmplz": {
+        "path": "/opt/kenlm/build/bin/lmplz",
+        "sha256": "92194e19ac00d3eadf39822f7a2b2d806be410e50b7ead3d37d232437ad2180c"
+      },
+      "build_binary": {
+        "path": "/opt/kenlm/build/bin/build_binary",
+        "sha256": "288998c8f40d78c069e9d3fb144ee0baed197e0f9ebddda6d020217babfff52f"
+      },
+      "build": {
+        "kenlm_release": "0.3.0",
+        "source_sha256": "c4628bb9fb63c8a6f9240035b8b037385cfc404cb72e933cf48878291edac1e8",
+        "cmake_options": [
+          "CMAKE_BUILD_TYPE=Release",
+          "KENLM_MAX_ORDER=3"
+        ],
+        "compiler": "c++ (Debian 12.2.0-14+deb12u1) 12.2.0\nCopyright (C) 2022 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+        "cmake": "cmake version 3.25.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n",
+        "system_packages": "adduser\t3.134\napt\t2.6.2\nbase-files\t12.4+deb12u15\nbase-passwd\t3.6.1\nbash\t5.2.15-2+b13\nbinutils\t2.40-2\nbinutils-common:amd64\t2.40-2\nbinutils-x86-64-linux-gnu\t2.40-2\nbsdutils\t1:2.38.1-5+deb12u3\nbuild-essential\t12.9\nbzip2\t1.0.8-5+b1\nca-certificates\t20250419~deb12u2\ncmake\t3.25.1-1\ncmake-data\t3.25.1-1\ncoreutils\t9.1-1\ncpp\t4:12.2.0-3\ncpp-12\t12.2.0-14+deb12u1\ncurl\t7.88.1-10+deb12u15\ndash\t0.5.12-2\ndebconf\t1.5.82\ndebian-archive-keyring\t2023.3+deb12u2\ndebianutils\t5.7-0.5~deb12u1\ndiffutils\t1:3.8-4\ndpkg\t1.21.23\ndpkg-dev\t1.21.23\ne2fsprogs\t1.47.0-2+b2\nfindutils\t4.9.0-4\ng++\t4:12.2.0-3\ng++-12\t12.2.0-14+deb12u1\ngcc\t4:12.2.0-3\ngcc-12\t12.2.0-14+deb12u1\ngcc-12-base:amd64\t12.2.0-14+deb12u1\ngpgv\t2.2.40-1.1+deb12u2\ngrep\t3.8-5\ngzip\t1.12-1\nhostname\t3.23+nmu1\nicu-devtools\t72.1-3+deb12u1\ninit-system-helpers\t1.65.2+deb12u1\nlibacl1:amd64\t2.3.1-3\nlibapt-pkg6.0:amd64\t2.6.2\nlibarchive13:amd64\t3.6.2-1+deb12u5\nlibasan8:amd64\t12.2.0-14+deb12u1\nlibatomic1:amd64\t12.2.0-14+deb12u1\nlibattr1:amd64\t1:2.5.1-4\nlibaudit-common\t1:3.0.9-1\nlibaudit1:amd64\t1:3.0.9-1\nlibbinutils:amd64\t2.40-2\nlibblkid1:amd64\t2.38.1-5+deb12u3\nlibboost-atomic1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-atomic1.74.0:amd64\t1.74.0+ds1-21\nlibboost-chrono1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-chrono1.74.0:amd64\t1.74.0+ds1-21\nlibboost-date-time1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-date-time1.74.0:amd64\t1.74.0+ds1-21\nlibboost-iostreams-dev:amd64\t1.74.0.3\nlibboost-iostreams1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-iostreams1.74.0:amd64\t1.74.0+ds1-21\nlibboost-program-options-dev:amd64\t1.74.0.3\nlibboost-program-options1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-program-options1.74.0:amd64\t1.74.0+ds1-21\nlibboost-regex1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-regex1.74.0:amd64\t1.74.0+ds1-21\nlibboost-serialization1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-serialization1.74.0:amd64\t1.74.0+ds1-21\nlibboost-system-dev:amd64\t1.74.0.3\nlibboost-system1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-system1.74.0:amd64\t1.74.0+ds1-21\nlibboost-test-dev:amd64\t1.74.0.3\nlibboost-test1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-test1.74.0:amd64\t1.74.0+ds1-21\nlibboost-thread-dev:amd64\t1.74.0.3\nlibboost-thread1.74-dev:amd64\t1.74.0+ds1-21\nlibboost-thread1.74.0:amd64\t1.74.0+ds1-21\nlibboost1.74-dev:amd64\t1.74.0+ds1-21\nlibbrotli1:amd64\t1.0.9-2+deb12u1\nlibbz2-1.0:amd64\t1.0.8-5+b1\nlibbz2-dev:amd64\t1.0.8-5+b1\nlibc-bin\t2.36-9+deb12u14\nlibc-dev-bin\t2.36-9+deb12u14\nlibc6:amd64\t2.36-9+deb12u14\nlibc6-dev:amd64\t2.36-9+deb12u14\nlibcap-ng0:amd64\t0.8.3-1+b3\nlibcap2:amd64\t1:2.66-4+deb12u3+b1\nlibcc1-0:amd64\t12.2.0-14+deb12u1\nlibcom-err2:amd64\t1.47.0-2+b2\nlibcrypt-dev:amd64\t1:4.4.33-2\nlibcrypt1:amd64\t1:4.4.33-2\nlibctf-nobfd0:amd64\t2.40-2\nlibctf0:amd64\t2.40-2\nlibcurl4:amd64\t7.88.1-10+deb12u15\nlibdb5.3:amd64\t5.3.28+dfsg2-1\nlibdebconfclient0:amd64\t0.270\nlibdpkg-perl\t1.21.23\nlibexpat1:amd64\t2.5.0-1+deb12u5\nlibext2fs2:amd64\t1.47.0-2+b2\nlibffi8:amd64\t3.4.4-1\nlibgcc-12-dev:amd64\t12.2.0-14+deb12u1\nlibgcc-s1:amd64\t12.2.0-14+deb12u1\nlibgcrypt20:amd64\t1.10.1-3+deb12u1\nlibgdbm-compat4:amd64\t1.23-3\nlibgdbm6:amd64\t1.23-3\nlibgmp10:amd64\t2:6.2.1+dfsg1-1.1\nlibgnutls30:amd64\t3.7.9-2+deb12u7\nlibgomp1:amd64\t12.2.0-14+deb12u1\nlibgpg-error0:amd64\t1.46-1\nlibgprofng0:amd64\t2.40-2\nlibgssapi-krb5-2:amd64\t1.20.1-2+deb12u5\nlibhogweed6:amd64\t3.8.1-2\nlibicu-dev:amd64\t72.1-3+deb12u1\nlibicu72:amd64\t72.1-3+deb12u1\nlibidn2-0:amd64\t2.3.3-1+b1\nlibisl23:amd64\t0.25-1.1\nlibitm1:amd64\t12.2.0-14+deb12u1\nlibjansson4:amd64\t2.14-2\nlibjsoncpp25:amd64\t1.9.5-4\nlibk5crypto3:amd64\t1.20.1-2+deb12u5\nlibkeyutils1:amd64\t1.6.3-2\nlibkrb5-3:amd64\t1.20.1-2+deb12u5\nlibkrb5support0:amd64\t1.20.1-2+deb12u5\nlibldap-2.5-0:amd64\t2.5.13+dfsg-5\nliblsan0:amd64\t12.2.0-14+deb12u1\nliblz4-1:amd64\t1.9.4-1\nliblzma-dev:amd64\t5.4.1-1+deb12u2\nliblzma5:amd64\t5.4.1-1+deb12u2\nlibmd0:amd64\t1.0.4-2\nlibmount1:amd64\t2.38.1-5+deb12u3\nlibmpc3:amd64\t1.3.1-1\nlibmpfr6:amd64\t4.2.0-1\nlibncursesw6:amd64\t6.4-4\nlibnettle8:amd64\t3.8.1-2\nlibnghttp2-14:amd64\t1.52.0-1+deb12u3\nlibnsl-dev:amd64\t1.3.0-2\nlibnsl2:amd64\t1.3.0-2\nlibp11-kit0:amd64\t0.24.1-2\nlibpam-modules:amd64\t1.5.2-6+deb12u2\nlibpam-modules-bin\t1.5.2-6+deb12u2\nlibpam-runtime\t1.5.2-6+deb12u2\nlibpam0g:amd64\t1.5.2-6+deb12u2\nlibpcre2-8-0:amd64\t10.42-1+deb12u2\nlibperl5.36:amd64\t5.36.0-7+deb12u4\nlibproc2-0:amd64\t2:4.0.2-3\nlibpsl5:amd64\t0.21.2-1\nlibquadmath0:amd64\t12.2.0-14+deb12u1\nlibreadline8:amd64\t8.2-1.3\nlibrhash0:amd64\t1.4.3-3\nlibrtmp1:amd64\t2.4+20151223.gitfa8646d.1-2+b2\nlibsasl2-2:amd64\t2.1.28+dfsg-10+deb12u1\nlibsasl2-modules-db:amd64\t2.1.28+dfsg-10+deb12u1\nlibseccomp2:amd64\t2.5.4-1+deb12u1\nlibselinux1:amd64\t3.4-1+b6\nlibsemanage-common\t3.4-1\nlibsemanage2:amd64\t3.4-1+b5\nlibsepol2:amd64\t3.4-2.1\nlibsmartcols1:amd64\t2.38.1-5+deb12u3\nlibsqlite3-0:amd64\t3.40.1-2+deb12u2\nlibss2:amd64\t1.47.0-2+b2\nlibssh2-1:amd64\t1.10.0-3+deb12u1\nlibssl3:amd64\t3.0.22-1~deb12u2\nlibstdc++-12-dev:amd64\t12.2.0-14+deb12u1\nlibstdc++6:amd64\t12.2.0-14+deb12u1\nlibsystemd0:amd64\t252.39-1~deb12u2\nlibtasn1-6:amd64\t4.19.0-2+deb12u1\nlibtinfo6:amd64\t6.4-4\nlibtirpc-common\t1.3.3+ds-1\nlibtirpc-dev:amd64\t1.3.3+ds-1\nlibtirpc3:amd64\t1.3.3+ds-1\nlibtsan2:amd64\t12.2.0-14+deb12u1\nlibubsan1:amd64\t12.2.0-14+deb12u1\nlibudev1:amd64\t252.39-1~deb12u2\nlibunistring2:amd64\t1.0-2\nlibuuid1:amd64\t2.38.1-5+deb12u3\nlibuv1:amd64\t1.44.2-1+deb12u1\nlibxml2:amd64\t2.9.14+dfsg-1.3~deb12u6\nlibxxhash0:amd64\t0.8.1-1\nlibzstd1:amd64\t1.5.4+dfsg2-5\nlinux-libc-dev:amd64\t6.1.192-2\nlogin\t1:4.13+dfsg1-1+deb12u2\nlogsave\t1.47.0-2+b2\nmake\t4.3-4.1\nmawk\t1.3.4.20200120-3.1\nmount\t2.38.1-5+deb12u3\nncurses-base\t6.4-4\nncurses-bin\t6.4-4\nnetbase\t6.4\nopenssl\t3.0.22-1~deb12u2\npasswd\t1:4.13+dfsg1-1+deb12u2\npatch\t2.7.6-7\nperl\t5.36.0-7+deb12u4\nperl-base\t5.36.0-7+deb12u4\nperl-modules-5.36\t5.36.0-7+deb12u4\nprocps\t2:4.0.2-3\nreadline-common\t8.2-1.3\nrpcsvc-proto\t1.4.3-1\nsed\t4.9-1+deb12u1\nsysvinit-utils\t3.06-4\ntar\t1.34+dfsg-1.2+deb12u1\ntzdata\t2026f-0+deb12u1\nusr-is-merged\t37~deb12u1\nutil-linux\t2.38.1-5+deb12u3\nutil-linux-extra\t2.38.1-5+deb12u3\nxz-utils\t5.4.1-1+deb12u2\nzlib1g:amd64\t1:1.2.13.dfsg-1\nzlib1g-dev:amd64\t1:1.2.13.dfsg-1\n",
+        "python": "3.11.18",
+        "kenlm_binding": "/opt/venv/lib/python3.11/site-packages/kenlm.cpython-311-x86_64-linux-gnu.so"
+      }
+    },
+    "orders": {
+      "1": {
+        "trained": true,
+        "binary_loaded": true,
+        "log10_probability": -3.555146336555481,
+        "container_order": 2
+      },
+      "2": {
+        "trained": true,
+        "binary_loaded": true,
+        "log10_probability": -1.4202532768249512,
+        "container_order": 2
+      },
+      "3": {
+        "trained": true,
+        "binary_loaded": true,
+        "log10_probability": -1.074325442314148,
+        "container_order": 3
+      }
+    },
+    "native_unigram_arpa_load": false,
+    "unigram_expected_logprob": -3.52740473,
+    "unigram_actual_logprob": -3.5274047255516052
+  }
+}

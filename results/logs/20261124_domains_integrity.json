@@ -1,0 +1,112 @@
+{
+  "subsets": {
+    "news_only": [
+      {
+        "budget": 100000,
+        "actual_tokens": 99994,
+        "domain_tokens": {
+          "news": 99994
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "a43fef99d9c67d8da31bbd88d1bf8ab620dc184235739d20fab963983142ab5e"
+      },
+      {
+        "budget": 1000000,
+        "actual_tokens": 999979,
+        "domain_tokens": {
+          "news": 999979
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "0382e557c2a5648249df01dae7d77dff9b586ef2c1b2f26777e23c72e120d041"
+      },
+      {
+        "budget": 10000000,
+        "actual_tokens": 9999995,
+        "domain_tokens": {
+          "news": 9999995
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "c1c8fe9aee01613033820464177b192bc647bf7948e6020fbe70a3d1592ad8e9"
+      }
+    ],
+    "wiki_only": [
+      {
+        "budget": 100000,
+        "actual_tokens": 99995,
+        "domain_tokens": {
+          "wikipedia": 99995
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "c6f9a833e6e6cf47586c9a014896fe105d9d6c56c32bcb382d5e865f1ab49f7e"
+      },
+      {
+        "budget": 1000000,
+        "actual_tokens": 999985,
+        "domain_tokens": {
+          "wikipedia": 999985
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "6de4d4e5179c2aeed49a490b87d0b282f5e67c9835456d14e671be29c61b3d96"
+      },
+      {
+        "budget": 10000000,
+        "actual_tokens": 9999983,
+        "domain_tokens": {
+          "wikipedia": 9999983
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "d8b171a0036c8eede464255d0da3ade59c617d7a4af56c15b262a1a3fce3dddd"
+      }
+    ],
+    "news_wiki": [
+      {
+        "budget": 100000,
+        "actual_tokens": 99980,
+        "domain_tokens": {
+          "news": 49938,
+          "wikipedia": 50042
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "a6d7abbb8112bcef8140472d1ba40e207a273d884f73712eec7c2fa92ec9b499"
+      },
+      {
+        "budget": 1000000,
+        "actual_tokens": 999981,
+        "domain_tokens": {
+          "news": 502622,
+          "wikipedia": 497359
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "0a295b8e71accfcf276e6276a19aae77344884e460b4d4071b771bb65abf4047"
+      },
+      {
+        "budget": 10000000,
+        "actual_tokens": 10000000,
+        "domain_tokens": {
+          "news": 5015119,
+          "wikipedia": 4984881
+        },
+        "overlap": 0,
+        "duplicates": 0,
+        "sha256": "649c07490c283c1888c0aa2e7c29298521b6809ed262846e4eb7777b9ac8a99e"
+      }
+    ]
+  },
+  "sample_prefixes": {
+    "news": {
+      "original_sentences_preserved": 200000
+    },
+    "wikipedia": {
+      "original_sentences_preserved": 200000
+    }
+  },
+  "original_run_preserved": true
+}

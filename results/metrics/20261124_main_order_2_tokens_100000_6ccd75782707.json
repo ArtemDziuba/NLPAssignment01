@@ -1,0 +1,178 @@
+{
+  "run_id": "20261124_main",
+  "model_id": "order_2_tokens_100000",
+  "order": 2,
+  "budget": 100000,
+  "actual_tokens": 99987,
+  "records": 500,
+  "metrics": {
+    "exact_match_accuracy": 0.78,
+    "wer": 0.039748045178106,
+    "cer": 0.014997458057956279,
+    "mrr": 0.8749023809523808,
+    "oracle_accuracy": 1.0,
+    "raw_exact_match_accuracy": 0.78,
+    "oov_references": 0.28084274543874893,
+    "oov_hypotheses": 0.35331524271578546,
+    "oov_selected": 0.27934621099554235,
+    "inference_seconds": 0.021593110004687333,
+    "milliseconds_per_record": 0.043186220009374665,
+    "model_load_seconds": 0.01793738400010625
+  },
+  "training_seconds": 0.38240529599988804,
+  "binary_bytes": 2586905,
+  "evaluation_sha256": "426c324d25fe15ebb12ec27a48b74e6d26c133d3721c804185b6c101794a76b0",
+  "model_manifest_sha256": "52136fee9c14c23250290a2b4226bcd67ff0e9ab80305d21d24ac636010e35e0",
+  "config": {
+    "project_root": "..",
+    "seed": 42,
+    "paths": {
+      "raw_corpus": "data/raw",
+      "processed_corpus": "data/processed/ubertext_sentences.txt",
+      "subsets": "data/subsets",
+      "evaluation": "ua_asr_hypotheses_500.jsonl",
+      "models": "models",
+      "metrics": "results/metrics",
+      "predictions": "results/predictions",
+      "figures": "results/figures",
+      "logs": "results/logs"
+    },
+    "corpus": {
+      "name": "UberText",
+      "source_page": "https://lang.org.ua/en/ubertext/",
+      "release": "2.0",
+      "export": "sentenced",
+      "download_workers": 2,
+      "sources": [
+        {
+          "domain": "court",
+          "filename": "ubertext.court.sentenced.txt.bz2",
+          "url": "https://lang.org.ua/static/downloads/ubertext2.0/court/sentenced/ubertext.court.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+          "sha256": "3b613b699ee109d0ad734ec3764ae2272d46b4aca3a876c5d7516ea514fef6bf"
+        },
+        {
+          "domain": "fiction",
+          "filename": "ubertext.fiction.sentenced.txt.bz2",
+          "url": "https://lang.org.ua/static/downloads/ubertext2.0/fiction/sentenced/ubertext.fiction.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+          "sha256": "ccd8eb85a36b0ce9d027a9f7755aa8207c8e8ff40641dafd76dcccfd702a49b5"
+        },
+        {
+          "domain": "news",
+          "filename": "ubertext.news.sentenced.txt.bz2",
+          "url": "https://lang.org.ua/static/downloads/ubertext2.0/news/sentenced/ubertext.news.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+          "sha256": "2226f19fb0d0f6b0cde3d68333eaef3d4da848e660a4884fff1f1fbfd2ae0456"
+        },
+        {
+          "domain": "social",
+          "filename": "ubertext.social.sentenced.txt.bz2",
+          "url": "https://lang.org.ua/static/downloads/ubertext2.0/social/sentenced/ubertext.social.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+          "sha256": "737101aca5d64b4879fa9730026c546e4e585b22629c289150e282f56e07ba56"
+        },
+        {
+          "domain": "wikipedia",
+          "filename": "ubertext.wikipedia.sentenced.txt.bz2",
+          "url": "https://lang.org.ua/static/downloads/ubertext2.0/wikipedia/sentenced/ubertext.wikipedia.filter_rus_gcld%2Bshort.text_only.txt.bz2",
+          "sha256": "7e774e3bf510b08c9ab3fa49dd4f7b990ba1667492bca3b2121932f1a96d8f3b"
+        }
+      ],
+      "encoding": "utf-8"
+    },
+    "preprocessing": {
+      "version": "nfc-lower-apostrophe-words-v1",
+      "sentence_segmenter": "official_sentence_lines",
+      "min_sentence_words": 2,
+      "max_sentence_words": 150,
+      "unicode_normalization": "NFC",
+      "lowercase": true,
+      "apostrophe": "'",
+      "punctuation": "separate_except_internal_apostrophes",
+      "collapse_whitespace": true,
+      "preserve_digits": true,
+      "correct_recognition_errors": false,
+      "drop_empty_training_sentences": true,
+      "deduplicate_training_sentences": true,
+      "exclude_evaluation_overlap": true,
+      "overlap_fields": [
+        "reference",
+        "hypotheses"
+      ],
+      "sentences_per_domain": 200000
+    },
+    "experiments": {
+      "ngram_orders": [
+        1,
+        2,
+        3
+      ],
+      "corpus_word_tokens": [
+        100000,
+        1000000,
+        10000000
+      ],
+      "subset_policy": "whole_sentence_prefix_at_most",
+      "record_actual_token_counts": true,
+      "reuse_matching_models": true
+    },
+    "kenlm": {
+      "lmplz": "lmplz",
+      "build_binary": "build_binary",
+      "memory": "2G",
+      "binary_type": "probing",
+      "keep_arpa": true,
+      "verify_unigram_support": true,
+      "unigram_compatibility": "zero_bigram_container",
+      "discount_fallback": false,
+      "toolchain_manifest": "/opt/kenlm/toolchain.json"
+    },
+    "scoring": {
+      "selection": "minimum_perplexity",
+      "log_base": 10,
+      "bos": true,
+      "eos": true,
+      "perplexity_denominator": "word_tokens",
+      "tie_break": "first_candidate",
+      "empty_normalized_candidate": "error"
+    },
+    "evaluation": {
+      "expected_records": 500,
+      "id_field": "utt_id",
+      "reference_field": "reference",
+      "candidates_field": "hypotheses",
+      "require_unique_ids": true,
+      "preserve_candidate_order": true,
+      "match_on": "normalized_text",
+      "primary_metric": "exact_match_accuracy",
+      "metrics": [
+        "exact_match_accuracy",
+        "wer",
+        "cer",
+        "mrr",
+        "oracle_accuracy",
+        "oov_rate"
+      ],
+      "edit_rate_aggregation": "corpus",
+      "cer_include_spaces": true,
+      "mrr_missing_reference": 0.0,
+      "oov_texts": [
+        "references",
+        "hypotheses",
+        "selected"
+      ],
+      "baselines": [
+        "first_candidate",
+        "seeded_random"
+      ],
+      "measure_inference_time": true,
+      "save_individual_predictions": true
+    },
+    "llm": {
+      "enabled": false
+    }
+  },
+  "environment": {
+    "python": "3.11.18 (main, Nov 24 2026, 05:04:59) [GCC 12.2.0]",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36"
+  },
+  "timing_scope": "normalization, KenLM scoring and ranking; excludes metrics, OOV, I/O",
+  "predictions_file": "20261124_main_order_2_tokens_100000_6ccd75782707.jsonl"
+}

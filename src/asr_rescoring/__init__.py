@@ -1,1 +1,1 @@
-"""Ukrainian ASR rescoring project; pipeline components are scaffolded, not implemented."""
+"""Reproducible Ukrainian ASR candidate rescoring with classical KenLM models."""

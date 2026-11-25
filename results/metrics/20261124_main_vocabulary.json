@@ -1,0 +1,2420 @@
+{
+  "model_id": "order_3_tokens_10000000",
+  "items": {
+    "ua_title_0000": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0001": {
+      "reference_oov": [
+        "родрігешем"
+      ],
+      "selected_oov": [
+        "родрігешем"
+      ]
+    },
+    "ua_title_0002": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0003": {
+      "reference_oov": [],
+      "selected_oov": [
+        "кампромоту"
+      ]
+    },
+    "ua_title_0004": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0005": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0006": {
+      "reference_oov": [
+        "бройлери"
+      ],
+      "selected_oov": [
+        "бройлери"
+      ]
+    },
+    "ua_title_0007": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0008": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0009": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0010": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0011": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0012": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0013": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0014": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0015": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0016": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0017": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0018": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0019": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0020": {
+      "reference_oov": [
+        "дріблери"
+      ],
+      "selected_oov": [
+        "дріблери"
+      ]
+    },
+    "ua_title_0021": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0022": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0023": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0024": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0025": {
+      "reference_oov": [],
+      "selected_oov": [
+        "дотивлявся"
+      ]
+    },
+    "ua_title_0026": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0027": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0028": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0029": {
+      "reference_oov": [
+        "лопесу"
+      ],
+      "selected_oov": [
+        "лопесу"
+      ]
+    },
+    "ua_title_0030": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0031": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0032": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0033": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0034": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0035": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0036": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0037": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0038": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0039": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0040": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0041": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0042": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0043": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0044": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0045": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0046": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0047": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0048": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0049": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0050": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0051": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0052": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0053": {
+      "reference_oov": [
+        "невразливого"
+      ],
+      "selected_oov": [
+        "невразливого"
+      ]
+    },
+    "ua_title_0054": {
+      "reference_oov": [
+        "антиахметовський"
+      ],
+      "selected_oov": [
+        "антиахметовський"
+      ]
+    },
+    "ua_title_0055": {
+      "reference_oov": [
+        "мичання"
+      ],
+      "selected_oov": [
+        "мичання"
+      ]
+    },
+    "ua_title_0056": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0057": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0058": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0059": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0060": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0061": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0062": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0063": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0064": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0065": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0066": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0067": {
+      "reference_oov": [],
+      "selected_oov": [
+        "ячів"
+      ]
+    },
+    "ua_title_0068": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0069": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0070": {
+      "reference_oov": [
+        "поліграфом"
+      ],
+      "selected_oov": [
+        "поліграфом"
+      ]
+    },
+    "ua_title_0071": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0072": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0073": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0074": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0075": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0076": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0077": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0078": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0079": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0080": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0081": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0082": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0083": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0084": {
+      "reference_oov": [
+        "новинському"
+      ],
+      "selected_oov": [
+        "новинському"
+      ]
+    },
+    "ua_title_0085": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0086": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0087": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0088": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0089": {
+      "reference_oov": [
+        "мегаракети"
+      ],
+      "selected_oov": [
+        "мегаракети"
+      ]
+    },
+    "ua_title_0090": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0091": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0092": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0093": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0094": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0095": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0096": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0097": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0098": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0099": {
+      "reference_oov": [
+        "некроманти",
+        "n9"
+      ],
+      "selected_oov": [
+        "некроманти",
+        "n9"
+      ]
+    },
+    "ua_title_0100": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0101": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0102": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0103": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0104": {
+      "reference_oov": [
+        "тоттенхемом"
+      ],
+      "selected_oov": [
+        "тоттенхемом"
+      ]
+    },
+    "ua_title_0105": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0106": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0107": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0108": {
+      "reference_oov": [
+        "pins"
+      ],
+      "selected_oov": [
+        "pins",
+        "являться"
+      ]
+    },
+    "ua_title_0109": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0110": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0111": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0112": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0113": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0114": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0115": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0116": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0117": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0118": {
+      "reference_oov": [
+        "бортницькій"
+      ],
+      "selected_oov": [
+        "бортницькій"
+      ]
+    },
+    "ua_title_0119": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0120": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0121": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0122": {
+      "reference_oov": [
+        "petcube"
+      ],
+      "selected_oov": [
+        "petcube"
+      ]
+    },
+    "ua_title_0123": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0124": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0125": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0126": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0127": {
+      "reference_oov": [
+        "відригує"
+      ],
+      "selected_oov": [
+        "відригує"
+      ]
+    },
+    "ua_title_0128": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0129": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0130": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0131": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0132": {
+      "reference_oov": [
+        "copterpack"
+      ],
+      "selected_oov": [
+        "copterpack"
+      ]
+    },
+    "ua_title_0133": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0134": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0135": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0136": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0137": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0138": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0139": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0140": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0141": {
+      "reference_oov": [
+        "роснефтю"
+      ],
+      "selected_oov": [
+        "роснефтю"
+      ]
+    },
+    "ua_title_0142": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0143": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0144": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0145": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0146": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0147": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0148": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0149": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0150": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0151": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0152": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0153": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0154": {
+      "reference_oov": [
+        "арнаутовіч"
+      ],
+      "selected_oov": [
+        "арнаутовіч"
+      ]
+    },
+    "ua_title_0155": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0156": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0157": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0158": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0159": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0160": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0161": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0162": {
+      "reference_oov": [
+        "cенат"
+      ],
+      "selected_oov": [
+        "cенат"
+      ]
+    },
+    "ua_title_0163": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0164": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0165": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0166": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0167": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0168": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0169": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0170": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0171": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0172": {
+      "reference_oov": [
+        "пятенко"
+      ],
+      "selected_oov": [
+        "пятенко"
+      ]
+    },
+    "ua_title_0173": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0174": {
+      "reference_oov": [
+        "айдарівець"
+      ],
+      "selected_oov": [
+        "айдарівець"
+      ]
+    },
+    "ua_title_0175": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0176": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0177": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0178": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0179": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0180": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0181": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0182": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0183": {
+      "reference_oov": [
+        "дезертирують"
+      ],
+      "selected_oov": [
+        "дезертирують"
+      ]
+    },
+    "ua_title_0184": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0185": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0186": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0187": {
+      "reference_oov": [
+        "кулаках"
+      ],
+      "selected_oov": [
+        "кулаках"
+      ]
+    },
+    "ua_title_0188": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0189": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0190": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0191": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0192": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0193": {
+      "reference_oov": [
+        "мойєсовський",
+        "аллера"
+      ],
+      "selected_oov": [
+        "мойєсовський",
+        "аллера"
+      ]
+    },
+    "ua_title_0194": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0195": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0196": {
+      "reference_oov": [
+        "калитвинцев"
+      ],
+      "selected_oov": [
+        "калитвинцев"
+      ]
+    },
+    "ua_title_0197": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0198": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0199": {
+      "reference_oov": [
+        "редкач",
+        "хайповий"
+      ],
+      "selected_oov": [
+        "редкач",
+        "хайповий"
+      ]
+    },
+    "ua_title_0200": {
+      "reference_oov": [
+        "міккель"
+      ],
+      "selected_oov": [
+        "міккель"
+      ]
+    },
+    "ua_title_0201": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0202": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0203": {
+      "reference_oov": [
+        "націлилася",
+        "алькасера"
+      ],
+      "selected_oov": [
+        "націлилася",
+        "алькасера"
+      ]
+    },
+    "ua_title_0204": {
+      "reference_oov": [
+        "заявилася"
+      ],
+      "selected_oov": [
+        "заявилася"
+      ]
+    },
+    "ua_title_0205": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0206": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0207": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0208": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0209": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0210": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0211": {
+      "reference_oov": [
+        "каратель"
+      ],
+      "selected_oov": [
+        "каратель"
+      ]
+    },
+    "ua_title_0212": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0213": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0214": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0215": {
+      "reference_oov": [
+        "хавбека"
+      ],
+      "selected_oov": [
+        "хавбека"
+      ]
+    },
+    "ua_title_0216": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0217": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0218": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0219": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0220": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0221": {
+      "reference_oov": [
+        "лакеї"
+      ],
+      "selected_oov": [
+        "лакеї"
+      ]
+    },
+    "ua_title_0222": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0223": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0224": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0225": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0226": {
+      "reference_oov": [
+        "детройту",
+        "оклахому"
+      ],
+      "selected_oov": [
+        "детройту",
+        "оклахому"
+      ]
+    },
+    "ua_title_0227": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0228": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0229": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0230": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0231": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0232": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0233": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0234": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0235": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0236": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0237": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0238": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0239": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0240": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0241": {
+      "reference_oov": [
+        "прокредитували"
+      ],
+      "selected_oov": [
+        "прокредитували"
+      ]
+    },
+    "ua_title_0242": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0243": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0244": {
+      "reference_oov": [
+        "офсайд"
+      ],
+      "selected_oov": [
+        "офсайд"
+      ]
+    },
+    "ua_title_0245": {
+      "reference_oov": [
+        "станцювати"
+      ],
+      "selected_oov": [
+        "станцювати"
+      ]
+    },
+    "ua_title_0246": {
+      "reference_oov": [
+        "депортує"
+      ],
+      "selected_oov": [
+        "депортує"
+      ]
+    },
+    "ua_title_0247": {
+      "reference_oov": [
+        "щербині"
+      ],
+      "selected_oov": [
+        "щербині"
+      ]
+    },
+    "ua_title_0248": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0249": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0250": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0251": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0252": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0253": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0254": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0255": {
+      "reference_oov": [
+        "засекретили"
+      ],
+      "selected_oov": [
+        "засекретили"
+      ]
+    },
+    "ua_title_0256": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0257": {
+      "reference_oov": [
+        "чвертьфіналістом"
+      ],
+      "selected_oov": [
+        "чвертьфіналістом"
+      ]
+    },
+    "ua_title_0258": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0259": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0260": {
+      "reference_oov": [
+        "націнвестради"
+      ],
+      "selected_oov": [
+        "націнвестради"
+      ]
+    },
+    "ua_title_0261": {
+      "reference_oov": [
+        "планетну"
+      ],
+      "selected_oov": [
+        "планетну"
+      ]
+    },
+    "ua_title_0262": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0263": {
+      "reference_oov": [
+        "уельському",
+        "конуї"
+      ],
+      "selected_oov": [
+        "уельському",
+        "конуї"
+      ]
+    },
+    "ua_title_0264": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0265": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0266": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0267": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0268": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0269": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0270": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0271": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0272": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0273": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0274": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0275": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0276": {
+      "reference_oov": [
+        "райкіна"
+      ],
+      "selected_oov": [
+        "райкіна"
+      ]
+    },
+    "ua_title_0277": {
+      "reference_oov": [
+        "стипендіями"
+      ],
+      "selected_oov": [
+        "стипендіями"
+      ]
+    },
+    "ua_title_0278": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0279": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0280": {
+      "reference_oov": [
+        "хавбека"
+      ],
+      "selected_oov": [
+        "хавбека"
+      ]
+    },
+    "ua_title_0281": {
+      "reference_oov": [
+        "фотофакт"
+      ],
+      "selected_oov": [
+        "фотофакт"
+      ]
+    },
+    "ua_title_0282": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0283": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0284": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0285": {
+      "reference_oov": [
+        "воскрешати"
+      ],
+      "selected_oov": [
+        "воскрешати"
+      ]
+    },
+    "ua_title_0286": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0287": {
+      "reference_oov": [
+        "ексватажка"
+      ],
+      "selected_oov": [
+        "ексватажка"
+      ]
+    },
+    "ua_title_0288": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0289": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0290": {
+      "reference_oov": [
+        "фотофакт",
+        "екоготель"
+      ],
+      "selected_oov": [
+        "фотофакт",
+        "екоготель"
+      ]
+    },
+    "ua_title_0291": {
+      "reference_oov": [
+        "notebook"
+      ],
+      "selected_oov": [
+        "notebook"
+      ]
+    },
+    "ua_title_0292": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0293": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0294": {
+      "reference_oov": [
+        "бостад",
+        "лопатецька"
+      ],
+      "selected_oov": [
+        "бостад",
+        "лопатецька"
+      ]
+    },
+    "ua_title_0295": {
+      "reference_oov": [
+        "заробітчанах",
+        "медзахист"
+      ],
+      "selected_oov": [
+        "заробітчанах",
+        "медзахист"
+      ]
+    },
+    "ua_title_0296": {
+      "reference_oov": [
+        "мутованого"
+      ],
+      "selected_oov": [
+        "мутованого"
+      ]
+    },
+    "ua_title_0297": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0298": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0299": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0300": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0301": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0302": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0303": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0304": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0305": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0306": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0307": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0308": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0309": {
+      "reference_oov": [
+        "відпускному"
+      ],
+      "selected_oov": [
+        "відпускному"
+      ]
+    },
+    "ua_title_0310": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0311": {
+      "reference_oov": [
+        "конвоювати"
+      ],
+      "selected_oov": [
+        "конвоювати"
+      ]
+    },
+    "ua_title_0312": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0313": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0314": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0315": {
+      "reference_oov": [
+        "овінс",
+        "меніфілд"
+      ],
+      "selected_oov": [
+        "овінс",
+        "меніфілд"
+      ]
+    },
+    "ua_title_0316": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0317": {
+      "reference_oov": [
+        "берналя"
+      ],
+      "selected_oov": [
+        "берналя"
+      ]
+    },
+    "ua_title_0318": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0319": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0320": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0321": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0322": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0323": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0324": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0325": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0326": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0327": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0328": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0329": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0330": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0331": {
+      "reference_oov": [
+        "ps1",
+        "ps2"
+      ],
+      "selected_oov": [
+        "ps1",
+        "ps2"
+      ]
+    },
+    "ua_title_0332": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0333": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0334": {
+      "reference_oov": [
+        "облітати"
+      ],
+      "selected_oov": [
+        "облітати"
+      ]
+    },
+    "ua_title_0335": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0336": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0337": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0338": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0339": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0340": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0341": {
+      "reference_oov": [
+        "телень"
+      ],
+      "selected_oov": [
+        "телень"
+      ]
+    },
+    "ua_title_0342": {
+      "reference_oov": [
+        "орхідею"
+      ],
+      "selected_oov": [
+        "орхідею"
+      ]
+    },
+    "ua_title_0343": {
+      "reference_oov": [
+        "оновляться"
+      ],
+      "selected_oov": [
+        "оновляться"
+      ]
+    },
+    "ua_title_0344": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0345": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0346": {
+      "reference_oov": [
+        "sigyn"
+      ],
+      "selected_oov": [
+        "sigyn"
+      ]
+    },
+    "ua_title_0347": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0348": {
+      "reference_oov": [
+        "lava",
+        "апгрейда"
+      ],
+      "selected_oov": [
+        "lava",
+        "апгрейда"
+      ]
+    },
+    "ua_title_0349": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0350": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0351": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0352": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0353": {
+      "reference_oov": [
+        "йейтс"
+      ],
+      "selected_oov": [
+        "йейтс"
+      ]
+    },
+    "ua_title_0354": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0355": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0356": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0357": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0358": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0359": {
+      "reference_oov": [
+        "гастелум",
+        "адесанья"
+      ],
+      "selected_oov": [
+        "гастелум",
+        "адесанья"
+      ]
+    },
+    "ua_title_0360": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0361": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0362": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0363": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0364": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0365": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0366": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0367": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0368": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0369": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0370": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0371": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0372": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0373": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0374": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0375": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0376": {
+      "reference_oov": [
+        "каскадне"
+      ],
+      "selected_oov": [
+        "каскадне"
+      ]
+    },
+    "ua_title_0377": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0378": {
+      "reference_oov": [
+        "меблях"
+      ],
+      "selected_oov": [
+        "меблях"
+      ]
+    },
+    "ua_title_0379": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0380": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0381": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0382": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0383": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0384": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0385": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0386": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0387": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0388": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0389": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0390": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0391": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0392": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0393": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0394": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0395": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0396": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0397": {
+      "reference_oov": [
+        "енергорегулятор"
+      ],
+      "selected_oov": [
+        "енергорегулятор"
+      ]
+    },
+    "ua_title_0398": {
+      "reference_oov": [
+        "автобазі"
+      ],
+      "selected_oov": [
+        "автобазі"
+      ]
+    },
+    "ua_title_0399": {
+      "reference_oov": [
+        "bing"
+      ],
+      "selected_oov": [
+        "bing"
+      ]
+    },
+    "ua_title_0400": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0401": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0402": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0403": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0404": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0405": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0406": {
+      "reference_oov": [
+        "шошина"
+      ],
+      "selected_oov": []
+    },
+    "ua_title_0407": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0408": {
+      "reference_oov": [
+        "антикорупцiйна",
+        "стратегiя"
+      ],
+      "selected_oov": [
+        "антикорупцiйна",
+        "стратегiя"
+      ]
+    },
+    "ua_title_0409": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0410": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0411": {
+      "reference_oov": [
+        "vici",
+        "epicenter"
+      ],
+      "selected_oov": [
+        "vici",
+        "epicenter"
+      ]
+    },
+    "ua_title_0412": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0413": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0414": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0415": {
+      "reference_oov": [
+        "кірьос"
+      ],
+      "selected_oov": [
+        "кірьос"
+      ]
+    },
+    "ua_title_0416": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0417": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0418": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0419": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0420": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0421": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0422": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0423": {
+      "reference_oov": [
+        "куману"
+      ],
+      "selected_oov": [
+        "куману"
+      ]
+    },
+    "ua_title_0424": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0425": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0426": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0427": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0428": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0429": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0430": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0431": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0432": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0433": {
+      "reference_oov": [
+        "техрегламенти"
+      ],
+      "selected_oov": [
+        "техрегламенти"
+      ]
+    },
+    "ua_title_0434": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0435": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0436": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0437": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0438": {
+      "reference_oov": [
+        "шпигунки"
+      ],
+      "selected_oov": [
+        "шпигунки"
+      ]
+    },
+    "ua_title_0439": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0440": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0441": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0442": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0443": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0444": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0445": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0446": {
+      "reference_oov": [
+        "висадить"
+      ],
+      "selected_oov": [
+        "висадить"
+      ]
+    },
+    "ua_title_0447": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0448": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0449": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0450": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0451": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0452": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0453": {
+      "reference_oov": [
+        "спецорган"
+      ],
+      "selected_oov": [
+        "спецорган"
+      ]
+    },
+    "ua_title_0454": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0455": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0456": {
+      "reference_oov": [
+        "лайфстайл"
+      ],
+      "selected_oov": [
+        "лайфстайл"
+      ]
+    },
+    "ua_title_0457": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0458": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0459": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0460": {
+      "reference_oov": [
+        "рефармінг"
+      ],
+      "selected_oov": [
+        "рефармінг"
+      ]
+    },
+    "ua_title_0461": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0462": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0463": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0464": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0465": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0466": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0467": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0468": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0469": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0470": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0471": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0472": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0473": {
+      "reference_oov": [
+        "кручова"
+      ],
+      "selected_oov": [
+        "кручова"
+      ]
+    },
+    "ua_title_0474": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0475": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0476": {
+      "reference_oov": [
+        "вихлопами"
+      ],
+      "selected_oov": [
+        "вихлопами"
+      ]
+    },
+    "ua_title_0477": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0478": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0479": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0480": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0481": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0482": {
+      "reference_oov": [
+        "смедляєв"
+      ],
+      "selected_oov": [
+        "смедляєв"
+      ]
+    },
+    "ua_title_0483": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0484": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0485": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0486": {
+      "reference_oov": [
+        "травкою"
+      ],
+      "selected_oov": [
+        "травкою"
+      ]
+    },
+    "ua_title_0487": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0488": {
+      "reference_oov": [
+        "фотофакт"
+      ],
+      "selected_oov": [
+        "фотофакт"
+      ]
+    },
+    "ua_title_0489": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0490": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0491": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0492": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0493": {
+      "reference_oov": [
+        "переїданням"
+      ],
+      "selected_oov": [
+        "переїданням"
+      ]
+    },
+    "ua_title_0494": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0495": {
+      "reference_oov": [
+        "наливайченку"
+      ],
+      "selected_oov": [
+        "наливайченку"
+      ]
+    },
+    "ua_title_0496": {
+      "reference_oov": [
+        "кабачком"
+      ],
+      "selected_oov": [
+        "кабачком"
+      ]
+    },
+    "ua_title_0497": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0498": {
+      "reference_oov": [],
+      "selected_oov": []
+    },
+    "ua_title_0499": {
+      "reference_oov": [],
+      "selected_oov": []
+    }
+  },
+  "reference_oov_by_outcome": {
+    "correct": {
+      "unknown_tokens": 82,
+      "total_tokens": 4177,
+      "rate": 0.019631314340435718
+    },
+    "incorrect": {
+      "unknown_tokens": 25,
+      "total_tokens": 427,
+      "rate": 0.0585480093676815
+    }
+  }
+}

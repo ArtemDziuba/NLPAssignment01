@@ -1,4 +1,5 @@
-# Initial specification only: pipeline modules and config validation are not implemented yet.
+# All five official UberText 2.0 sentence-split domains; no evaluation text is training data.
+project_root: ..
 # Resolve all relative paths from the project root, not from this file's directory.
 seed: 42
 
@@ -6,7 +7,7 @@ paths:
   raw_corpus: data/raw
   processed_corpus: data/processed/ubertext_sentences.txt
   subsets: data/subsets
-  evaluation: ua_asr_hypotheses_500.jsonl
+  evaluation: data/evaluation/ua_asr_hypotheses_500.jsonl
   models: models
   metrics: results/metrics
   predictions: results/predictions
@@ -16,16 +17,38 @@ paths:
 corpus:
   name: UberText
   source_page: https://lang.org.ua/en/ubertext/
-  # Select a release/export and record its license and checksums before downloading.
-  release: null
-  download_url: null
-  input_files: []
+  release: '2.0'
+  export: sentenced
+  download_workers: 2
+  # The official distribution has sentence boundaries, so no new segmenter is needed.
+  sources:
+    - domain: court
+      filename: ubertext.court.sentenced.txt.bz2
+      url: https://lang.org.ua/static/downloads/ubertext2.0/court/sentenced/ubertext.court.filter_rus_gcld%2Bshort.text_only.txt.bz2
+      sha256: 3b613b699ee109d0ad734ec3764ae2272d46b4aca3a876c5d7516ea514fef6bf
+    - domain: fiction
+      filename: ubertext.fiction.sentenced.txt.bz2
+      url: https://lang.org.ua/static/downloads/ubertext2.0/fiction/sentenced/ubertext.fiction.filter_rus_gcld%2Bshort.text_only.txt.bz2
+      sha256: ccd8eb85a36b0ce9d027a9f7755aa8207c8e8ff40641dafd76dcccfd702a49b5
+    - domain: news
+      filename: ubertext.news.sentenced.txt.bz2
+      url: https://lang.org.ua/static/downloads/ubertext2.0/news/sentenced/ubertext.news.filter_rus_gcld%2Bshort.text_only.txt.bz2
+      sha256: 2226f19fb0d0f6b0cde3d68333eaef3d4da848e660a4884fff1f1fbfd2ae0456
+    - domain: social
+      filename: ubertext.social.sentenced.txt.bz2
+      url: https://lang.org.ua/static/downloads/ubertext2.0/social/sentenced/ubertext.social.filter_rus_gcld%2Bshort.text_only.txt.bz2
+      sha256: 737101aca5d64b4879fa9730026c546e4e585b22629c289150e282f56e07ba56
+    - domain: wikipedia
+      filename: ubertext.wikipedia.sentenced.txt.bz2
+      url: https://lang.org.ua/static/downloads/ubertext2.0/wikipedia/sentenced/ubertext.wikipedia.filter_rus_gcld%2Bshort.text_only.txt.bz2
+      sha256: 7e774e3bf510b08c9ab3fa49dd4f7b990ba1667492bca3b2121932f1a96d8f3b
   encoding: utf-8
 
 preprocessing:
-  version: v1-planned
-  # Choose and document a Ukrainian-aware segmenter after inspecting the corpus format.
-  sentence_segmenter: null
+  version: nfc-lower-apostrophe-words-v1
+  sentence_segmenter: official_sentence_lines
+  min_sentence_words: 2
+  max_sentence_words: 150
   unicode_normalization: NFC
   lowercase: true
   apostrophe: "'"
@@ -37,6 +60,8 @@ preprocessing:
   deduplicate_training_sentences: true
   exclude_evaluation_overlap: true
   overlap_fields: [reference, hypotheses]
+  # Stream the complete archives; retain a deterministic bounded sample per domain.
+  sentences_per_domain: 200000
 
 experiments:
   ngram_orders: [1, 2, 3]
@@ -54,7 +79,9 @@ kenlm:
   binary_type: probing
   keep_arpa: true
   verify_unigram_support: true
-  on_unsupported_unigram: error
+  unigram_compatibility: zero_bigram_container
+  discount_fallback: false
+  toolchain_manifest: /opt/kenlm/toolchain.json
 
 scoring:
   selection: minimum_perplexity
@@ -86,3 +113,27 @@ evaluation:
 
 llm:
   enabled: false
+  # Explicit opt-in: scripts/evaluate_llm.py; never used by classical experiments.
+  endpoint: http://127.0.0.1:11434
+  model: qwen3.5:4b
+  method: prompted_candidate_ranking
+  candidate_presentation: seeded_per_record_shuffle
+  think: false
+  keep_alive: 5m
+  request_timeout_seconds: 180
+  max_attempts: 2
+  warmup_records: 1
+  memory_sample_seconds: 0.25
+  gpu_sample_seconds: 1.0
+  options:
+    seed: 42
+    temperature: 0
+    top_k: 1
+    top_p: 1.0
+    repeat_penalty: 1.0
+    presence_penalty: 0.0
+    frequency_penalty: 0.0
+    num_ctx: 4096
+    num_predict: 128
+    num_batch: 512
+    num_thread: 8
