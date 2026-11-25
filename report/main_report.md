@@ -137,6 +137,6 @@ The main findings are that local context improves Ukrainian candidate selection,
 
 The gold-first data order and exact ties favor the classical evaluation; LLM presentation is shuffled, so comparisons are not fully controlled. Normalization removes some raw differences, exact training exclusion cannot rule out related material, and LLM pretraining overlap is unknown. Only one fixed synthetic evaluation set and sampling seed were used, without independent test data or repeated timings. 
 
-Full per-model results, exact training sizes, error examples and tie diagnostics are provided in the [supplementary classical results](supplementary/classical_results.md); the [LLM experiment report](20261124_llm_experiment_results.md) contains complete bonus measurements. Reproduction commands and artifact links are documented in the repository README.
+Full per-model results, exact training sizes, error examples and tie diagnostics are provided in the [supplementary results](supplementary/classical_results.md); the [LLM experiment report](20261124_llm_experiment_results.md) contains complete bonus measurements. Reproduction commands and artifact links are documented in the repository README.
 
 **Resources:** [KenLM](https://github.com/kpu/kenlm); [UberText](https://lang.org.ua/en/ubertext/).
